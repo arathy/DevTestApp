@@ -16,6 +16,7 @@ namespace DevTestApp.Controllers
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
+        //sample push
         public ManageController()
         {
         }
