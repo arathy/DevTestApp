@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DevTestDBModelStoreContainer" CdmEntityContainer="DevTestDBEntities">
+    <EntitySetMapping Name="DevTest">
+      <EntityTypeMapping TypeName="DevTestDBModel.DevTest">
+        <MappingFragment StoreEntitySet="DevTest">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="CampaignName" ColumnName="CampaignName" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Clicks__int_NULL___Conversions" ColumnName="Clicks} int NULL,&#xA;[Conversions" />
+          <ScalarProperty Name="Impressions" ColumnName="Impressions" />
+          <ScalarProperty Name="AffiliateName" ColumnName="AffiliateName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
